@@ -1,0 +1,14 @@
+#!/bin/sh
+#https://guides.rubyonrails.org/getting_started.html
+
+echo '############################################'
+echo 'generate Welcome controller'
+rails generate controller Welcome index &&
+echo 'successfully generated controller Welcome index'
+
+echo 'rails generate controller Articles '
+rails generate controller Articles &&
+echo 'DONE'
+
+echo 'rails generate model Article title:string text:text'
+rails generate model Article title:string text:text 
