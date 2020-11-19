@@ -1,0 +1,2 @@
+rails webpacker:install:vue
+yarn install
